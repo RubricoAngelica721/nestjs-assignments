@@ -10,6 +10,7 @@ export class AssignmentController {
       sequence.push(a);
       [a, e] = [e, a + e];
     }
+    
     return { sequence };
   }
 }
